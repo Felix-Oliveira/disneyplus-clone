@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/imgs/favicon-32x32.3699f19f7fdff1a556c0953c12fb883f.png">
+    <title>Disney Plus</title>
+</head>
+<body>
+    <div class="background-fixed"></div>
+    <div class="wrapper">
+        <header class="header " data-header>
+            <div class="logo">
+                <a href="/" class="logo_link"></a>
+            </div>
+
+            <nav class="header_navegation">
+                <ul class="nav-menu">
+                    <li class="nav-menu_item">
+                        <a href="#" class="nav-menu_link">
+                            <i class="fa-solid fa-house"></i>
+                            <span class="nav-menu_text">Inicio</span>
+                        </a>
+                    </li>
+                    <li class="nav-menu_item">
+                        <a href="#" class="nav-menu_link">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <span class="nav-menu_text">Pesquisa</span>
+                        </a>
+                    </li>
+                    <li class="nav-menu_item">
+                        <a href="#" class="nav-menu_link">
+                            <i class="fa-solid fa-plus"></i>
+                            <span class="nav-menu_text">Minha Lista</span>
+                        </a>
+                    </li>
+                    <li class="nav-menu_item mobile-hidden">
+                        <a href="#" class="nav-menu_link">
+                            <i class="fa-solid fa-star"></i>
+                            <span class="nav-menu_text">Originais</span>
+                        </a>
+                    </li>
+                    <li class="nav-menu_item mobile-hidden">
+                        <a href="#" class="nav-menu_link">
+                            <i class="fa-solid fa-film"></i>
+                            <span class="nav-menu_text">Filmes</span>
+                        </a>
+                    </li>
+                    <li class="nav-menu_item mobile-hidden">
+                        <a href="#" class="nav-menu_link">
+                            <i class="fa-solid fa-tv"></i>
+                            <span class="nav-menu_text">Series</span>
+                        </a>
+                    </li>
+                    <li class="nav-menu_item dropdown">
+                        <a href="#" class="nav-menu_link" data-open-navsubmenu>
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                            <span class="nav-menu_text"> </span>
+                        </a>
+
+                        <ul class="nav-submenu" data-navsubmenu>
+                            <li class="nav-submenu_item mobile-hidden">
+                                <a href="#" class="nav-submenu_link">
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="nav-submenu_text">Originais</span>
+                                </a>
+                            </li>
+                            <li class="nav-submenu_item mobile-hidden">
+                                <a href="#" class="nav-submenu_link">
+                                    <i class="fa-solid fa-film"></i>
+                                    <span class="nav-submenu_text">Filmes</span>
+                                </a>
+                            </li>
+                            <li class="nav-submenu_item mobile-hidden">
+                                <a href="#" class="nav-submenu_link">
+                                    <i class="fa-solid fa-tv"></i>
+                                    <span class="nav-submenu_text">Series</span>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </li>
+                </ul>
+                <div class="user-menu" data-usermenu>
+                    <div class="user-menu_backgound show-hover"></div>
+                    <div class="user-menu_current-profile " data-open-usermenu>
+                        <div class="user-profile user-profile--reverse">
+                            <img src="./assets/imgs/avatar.png" alt="" class="user-profile_avatar">
+                            <span class="user-profile_title">Felix</span>
+                        </div>
+                    </div>
+                    <ul class="user-menu_profiles show-hover" data-usermenu="user-profiles">
+                        
+                        
+                    </ul>
+                    <ul class="user-menu_options show-hover">
+                        <li class="user-menu_item"><a href="#" class="user-menu_link">Editar Perfis</a></li>
+                        <li class="user-menu_item"><a href="#" class="user-menu_link">Configurações do Aplicativo</a></li>
+                        <li class="user-menu_item"><a href="#" class="user-menu_link">Conta</a></li>
+                        <li class="user-menu_item"><a href="#" class="user-menu_link">Ajuda</a></li>
+                        <li class="user-menu_item"><a href="#" class="user-menu_link">Sair</a></li>
+                    </ul>
+                    
+                </div>
+                
+            </nav>
+        </header>
+        
+        
+        
+
+        <section class="banners">
+
+            <button class=" arrow-slider arrow-slider-left " data-banner="btn-previous"></button>
+            <button class=" arrow-slider arrow-slider-right " data-banner="btn-next"></button>
+            <div class="controls-slider" data-banner="controls">
+            </div>
+
+            <div class="banner-slider" data-banner="slider">
+            
+            </div>
+        </section>
+
+        <section class="categories">
+            <ul class="category-menu">
+                <li class="category-menu_item">
+                    <video src="./assets/videos/category-disney.mp4" class="category-menu_video" autoplay loop muted></video>
+                    <a href="#" class="category-menu_link">
+                        <img src="./assets/imgs/categories/disney.png" alt="" class="category-menu_img">
+                    </a>
+                </li>
+                <li class="category-menu_item">
+                    <video src="./assets/videos/category-pixar.mp4" class="category-menu_video" autoplay loop muted></video>
+                    <a href="#" class="category-menu_link">
+                        <img src="./assets/imgs/categories/pixar.png" alt="" class="category-menu_img">
+                    </a>
+                </li>
+                <li class="category-menu_item">
+                    <video src="./assets/videos/category-marvel.mp4" class="category-menu_video" autoplay loop muted></video>
+                    <a href="#" class="category-menu_link">
+                        <img src="./assets/imgs/categories/marvel.png" alt="" class="category-menu_img">
+                    </a>
+                </li>
+                <li class="category-menu_item">
+                    <video src="./assets/videos/category-star-wars.mp4" class="category-menu_video" autoplay loop muted></video>
+                    <a href="#" class="category-menu_link">
+                        <img src="./assets/imgs/categories/star-wars.png" alt="" class="category-menu_img">
+                    </a>
+                </li>
+                <li class="category-menu_item">
+                    <video src="./assets/videos/category-national-geographic.mp4" class="category-menu_video" autoplay loop muted></video>
+                    <a href="#" class="category-menu_link">
+                        <img src="./assets/imgs/categories/national-geographic.png" alt="" class="category-menu_img">
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="collections" data-carousel="collections">
+            
+        </section>
+
+
+        <footer class="footer">
+            <div class="footer_wrapper">
+                <div class="logo">
+                    <a href="/" class="logo_link"></a>
+                </div>
+                <nav class="footer_navigation">
+                    <ul class="footer-menu">
+                        <li class="footer-menu_item">
+                            <a href="#" class="footer-menu_link">Política de Privacidade</a>
+                        </li>
+                        <li class="footer-menu_item">
+                            <a href="#" class="footer-menu_link">Proteção de Dados no Brasil</a>
+                        </li>
+                        <li class="footer-menu_item">
+                            <a href="#" class="footer-menu_link">Contrato de Assinatura</a>
+                        </li>
+                        <li class="footer-menu_item">
+                            <a href="#" class="footer-menu_link">Ajuda</a>
+                        </li>
+                        <li class="footer-menu_item">
+                            <a href="#" class="footer-menu_link">Dispositivos Compatíveis</a>
+                        </li>
+                        <li class="footer-menu_item">
+                            <a href="#" class="footer-menu_link">Sobre a Disney+</a>
+                        </li>
+                        <li class="footer-menu_item">
+                            <a href="#" class="footer-menu_link">Anúncios Personalizados</a>
+                        </li>
+                    </ul>
+                </nav>
+                <p class="footer_about">
+                    Disney+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Disney+ é comercializado por The Walt Disney Company (Brasil) Ltda., World Trade Center, Av. Das Nações Unidas, 12.551, 12.555, 12.559, Piso 10, São Paulo/SP - CEP 04578-903, Brasil e CNPJ/M 73.042.962/0004-20
+                </p>
+                <p class="footer_copyright">
+                    &copy; Disney. Todos os direitos reservados.
+                </p>
+            </div>
+        </footer>
+        
+    </div>
+    
+    <script type="module" src="/assets/js/app.js"></script>
+</body>
+</html>
